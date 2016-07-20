@@ -1,1 +1,4 @@
 # phpimagecompress
+It is a quite common process to upload images on the websites dynamically. However, while you upload the image with large file size in a website, it is likely to take more time to load. This necessitates the developer to write down the code to decrease the file size of image while dynamically uploading the image to the website. With the help of PHP coding, it is possible to reduce the size of files of uploaded images when they are loading. Definitely, you would have to compromise with the image quality i.e. is the file size has to be reduced.
+Note:
+The GD library is utilized for creating dynamic image. GD library is used to create JPG, PNG or GIF. This is more essential to run every image creation function in PHP language. When your server is not compatible with GD library, then the complete functionality associated with the image creation won’t work out.
